@@ -7,6 +7,9 @@
 *.obj
 *.elf
 
+# Personal files
+*.slnx.sqlite
+
 # Linker output
 *.ilk
 *.map
