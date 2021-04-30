@@ -1,0 +1,32 @@
+{
+  "managedApiConnections": {
+    "servicebus": {
+      "api": {
+        "id": "/subscriptions/c4022058-9e70-4f84-ad5b-1d689dd885ab/providers/Microsoft.Web/locations/northeurope/managedApis/servicebus"
+      },
+      "connection": {
+        "id": "/subscriptions/c4022058-9e70-4f84-ad5b-1d689dd885ab/resourceGroups/IB-rg-t/providers/Microsoft.Web/connections/servicebus"
+      },
+      "connectionRuntimeUrl": "https://a9e49906978fb70b.01.common.logic-northeurope.azure-apihub.net/apim/servicebus/92d0326b9f1b4e4288a1b50fb8719a24/",
+      "authentication": {
+        "type": "Raw",
+        "scheme": "Key",
+        "parameter": "@appsetting('servicebus-connectionKey')"
+      }
+    },
+    "filesystem": {
+      "api": {
+        "id": "/subscriptions/c4022058-9e70-4f84-ad5b-1d689dd885ab/providers/Microsoft.Web/locations/northeurope/managedApis/filesystem"
+      },
+      "connection": {
+        "id": "/subscriptions/c4022058-9e70-4f84-ad5b-1d689dd885ab/resourceGroups/IB-rg-t/providers/Microsoft.Web/connections/filesystem"
+      },
+      "connectionRuntimeUrl": "https://a9e49906978fb70b.01.common.logic-northeurope.azure-apihub.net/apim/filesystem/c539e2aee2664069aae86d573021a03b/",
+      "authentication": {
+        "type": "Raw",
+        "scheme": "Key",
+        "parameter": "@appsetting('filesystem-connectionKey')"
+      }
+    }
+  }
+}
