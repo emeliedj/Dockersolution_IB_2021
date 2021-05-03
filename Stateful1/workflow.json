@@ -122,7 +122,7 @@
                         "inputs": {
                             "host": {
                                 "connection": {
-                                    "referenceName": "filesystem"
+                                    "referenceName": "filesystem_3"
                                 }
                             },
                             "method": "post",
@@ -133,7 +133,7 @@
                             "path": "/datasets/default/files",
                             "queries": {
                                 "folderPath": "/",
-                                "name": "WeatherData",
+                                "name": "weatherdata",
                                 "queryParametersSingleEncoded": true
                             }
                         },
